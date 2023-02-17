@@ -1,0 +1,55 @@
+body{
+    background-color: azure;
+}
+
+.h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+
+input[type = text]{
+    padding: 15px;
+    width: 75%;
+    border-radius: 10px;
+    border-width: 1.5px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.body{
+    text-align: center;
+}
+
+.count{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+}
+
+par.result{
+    border-style: dotted;
+    padding: 15px;
+    border-width: 1.5px;
+    border-radius: 5px;
+    background-color: white;
+    
+}   
+
+button{
+    padding: 10px;
+    width: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1.5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:lightblue;
+}
